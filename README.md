@@ -8,7 +8,7 @@ pip install -r requirements.dev.txt
 # 1. Para qué se puede usar Python en lo que respecta a datos. Dar 5 casos y explicar brevemente
 Python es muy versátil y ampliamente usado en el análisis de datos, con aplicaciones muy útiles y variadas. Aquí te van cinco casos clave de uso en este campo:
 
-1.- Análisis de Datos: Python permite explorar, limpiar y analizar grandes cantidades de datos. Usando librerías como Pandas y NumPy, se pueden procesar datasets de deportes, redes sociales, o ciencia para obtener información valiosa, detectar patrones y entender tendencias.
+1. Análisis de Datos: Python permite explorar, limpiar y analizar grandes cantidades de datos. Usando librerías como Pandas y NumPy, se pueden procesar datasets de deportes, redes sociales, o ciencia para obtener información valiosa, detectar patrones y entender tendencias.
 
 2. Visualización de Datos: A través de librerías como Matplotlib, Seaborn y Plotly, se pueden crear gráficos y visualizaciones interactivas que hacen más fácil interpretar los datos. Esto es útil para mostrar patrones de rendimiento en deportes, como el fútbol, o ilustrar las relaciones entre distintas variables.
 
