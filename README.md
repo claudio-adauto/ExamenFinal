@@ -1,12 +1,15 @@
-# ExamenFinal
+# ExamenFinal - Requerimientos
+
 virtualenv .venv
+
 source .venv/Scripts/activate
+
 pip install -r requirements.dev.txt
 
 # Preguntas
 
 # 1. Para qué se puede usar Python en lo que respecta a datos. Dar 5 casos y explicar brevemente
-Python es muy versátil y ampliamente usado en el análisis de datos, con aplicaciones muy útiles y variadas. Aquí te van cinco casos clave de uso en este campo:
+Python es muy versátil y ampliamente usado en el análisis de datos, con aplicaciones muy útiles y variadas. Menciono cinco casos uso en este campo:
 
 1. Análisis de Datos: Python permite explorar, limpiar y analizar grandes cantidades de datos. Usando librerías como Pandas y NumPy, se pueden procesar datasets de deportes, redes sociales, o ciencia para obtener información valiosa, detectar patrones y entender tendencias.
 
@@ -17,6 +20,7 @@ Python es muy versátil y ampliamente usado en el análisis de datos, con aplica
 4. Manipulación y Extracción de Datos: Python es ideal para recolectar datos desde APIs o sitios web usando herramientas como BeautifulSoup y Scrapy. Esto permite recolectar datos actualizados, como estadísticas de partidos, puntajes en tiempo real o noticias, para luego analizar y trabajar con ellos.
 
 5. Automatización de Procesos: Python es muy bueno para automatizar tareas repetitivas, como actualizar bases de datos, analizar estadísticas, o generar reportes automáticos de datos. Esto puede ahorrar tiempo y garantizar que la información esté siempre actualizada.
+
 # 2. ¿Cómo se diferencian Flask de Django? Argumentar.
 Flask y Django son dos populares frameworks de Python para desarrollar aplicaciones web, pero se diferencian en su enfoque, flexibilidad y arquitectura, entre otros aspectos.
 
@@ -25,7 +29,8 @@ Flask: Es un "micro-framework" que se enfoca en la simplicidad y la flexibilidad
 Django: Es un "full-stack framework" que proporciona una solución completa para el desarrollo web. Incluye todo lo necesario, como ORM, autenticación de usuarios, y una interfaz de administración. Esto es útil para aplicaciones 
 complejas donde se necesita un flujo de trabajo y estructura definidos.
 
-Flask es ideal para proyectos pequeños o APIs donde la flexibilidad y velocidad son prioritarias, mientras que Django es excelente para aplicaciones complejas que requieren una estructura sólida y herramientas integradas para manejar diferentes aspectos de un sitio web o servicio grande. 
+Flask es ideal para proyectos pequeños o APIs donde la flexibilidad y velocidad son prioritarias, mientras que Django es excelente para aplicaciones complejas que requieren una estructura sólida y herramientas integradas para manejar diferentes aspectos de un sitio web o servicio grande.
+
 # 3. ¿Qué es un API? Explicar en sus propias palabras
 Un API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite que diferentes programas se comuniquen entre sí y compartan información o funcionalidades. Esto permite que aplicaciones de diferentes tipos trabajen juntas y se integren.
 
