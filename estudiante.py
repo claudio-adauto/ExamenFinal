@@ -4,6 +4,7 @@ from datetime import datetime
 # Conexión a la base de datos (se creará si no existe)
 conn = sqlite3.connect('alumnos.db')
 
+
 # Crear un cursor para ejecutar comandos SQL
 cur = conn.cursor()
 

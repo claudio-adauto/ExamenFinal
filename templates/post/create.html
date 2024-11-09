@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Crear Estudiante{% endblock %}
+{% block content %}
+    <h2>Agregar Nuevo Estudiante</h2>
+    <form method="POST">
+        <label>Nombre: <input type="text" name="nombre" required></label><br>
+        <label>Apellido: <input type="text" name="apellido" required></label><br>
+        <label>Aprobado: <input type="checkbox" name="aprobado" value="1"></label><br>
+        <label>Nota: <input type="number" name="nota" step="0.1" required></label><br>
+        <label>Fecha: <input type="date" name="fecha" required></label><br>
+        <button type="submit">Guardar</button>
+    </form>
+{% endblock %}

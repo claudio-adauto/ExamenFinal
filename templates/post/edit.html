@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Editar Estudiante{% endblock %}
+{% block content %}
+    <h2>Editar Estudiante</h2>
+    <form method="POST">
+        <label>Nombre: <input type="text" name="nombre" value="{{ student['nombre'] }}" required></label><br>
+        <label>Apellido: <input type="text" name="apellido" value="{{ student['apellido'] }}" required></label><br>
+        <label>Aprobado: <input type="checkbox" name="aprobado" value="1" {% if student['aprobado'] %}checked{% endif %}></label><br>
+        <label>Nota: <input type="number" name="nota" step="0.1" value="{{ student['nota'] }}" required></label><br>
+        <label>Fecha: <input type="date" name="fecha" value="{{ student['fecha'] }}" required></label><br>
+        <button type="submit">Guardar Cambios</button>
+    </form>
+
+    <h3>Eliminar Estudiante</h3>
+    <form action="{{ url_for('delete_student', student_id=student['id']) }}" method="POST">
+        <button type="submit" onclick="return confirm('¿Estás seguro de que deseas eliminar este estudiante?');">Eliminar</button>
+    </form>
+{% endblock %}
